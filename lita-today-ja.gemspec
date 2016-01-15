@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-today-ja"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["violetyk"]
   spec.email         = ["yuhei.kagaya@gmail.com"]
   spec.description   = "What is today?"
