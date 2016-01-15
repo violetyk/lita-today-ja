@@ -32,7 +32,7 @@ module Lita
       def hinet(date)
         params = {
           conf: 'today.pro',
-          d: date.strftime('%b %-d,%Y'),
+          d: date.strftime('%b %-d, %Y'),
         }
         charset = nil
         response = open('http://today.hakodate.or.jp/apps/Today/Content?' << params.to_query) do |f|
